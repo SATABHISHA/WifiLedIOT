@@ -5,7 +5,7 @@ import 'home/Home.dart';
 
 void main() async{
   WidgetsFlutterBinding.ensureInitialized();
-  // await Firebase.initializeApp(); //---for mobile
+  await Firebase.initializeApp(); //---for mobile
   /*await Firebase.initializeApp(
     options: FirebaseOptions(
       apiKey: "AIzaSyAS5alN0XMgU9ofvrCxEDqtryX4Ghq6OIo", // Your apiKey

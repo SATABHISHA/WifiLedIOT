@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "514236381215",
+    "firebase_url": "https://iotdemo-a5feb-default-rtdb.firebaseio.com",
+    "project_id": "iotdemo-a5feb",
+    "storage_bucket": "iotdemo-a5feb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:514236381215:android:fc9c83033d4ba9ae503d2a",
+        "android_client_info": {
+          "package_name": "org.sr.ledwifi.wifi_led"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "514236381215-fhrbrqtau3fqlqt7914mhna7q0128a0b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEUJ8_7TlSDhLWkFQgOu6N9noGtUl0fN4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "514236381215-fhrbrqtau3fqlqt7914mhna7q0128a0b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
