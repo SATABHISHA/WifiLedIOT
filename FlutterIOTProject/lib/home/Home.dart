@@ -36,6 +36,15 @@ class _HomeState extends State<Home> {
                       widget.redColorCode = value.red;
                       widget.greenColorCode = value.green;
                       widget.blueColorCode = value.blue;
+                      widget.databaseRef.update({
+                        "red": (255 - value.red),
+                        "green": (255 - value.green),
+                        "blue": (255 - value.blue),
+                      }).then((_) {
+
+                      }).catchError((onError) {
+                        // Scaffold.of(context).showSnackBar(SnackBar(content: Text(onError)));
+                      });
                       print('Red-=>${value.red}');
                     },
                     // labelTypes: [ColorLabelType.rgb],
